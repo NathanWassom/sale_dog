@@ -18,6 +18,7 @@ import { AProposComponent } from './a-propos/a-propos.component';
 import { LoginComponent } from './login/login.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FormsModule } from '@angular/forms';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { FormsModule } from '@angular/forms';
     AProposComponent,
     LoginComponent,
     PageNotFoundComponent,
+    MenuComponent,
 
 
   ],
